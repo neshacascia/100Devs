@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Navigation Styles */
+.navbar {
+	display: flex;
+	height: 45px;
+	background: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+img.nav-logo {
+	margin-left: 10px;
+	border-right: 1px solid white;
+	padding-right: 10px;
+}
+
+ul {
+	display: flex;
+	flex-grow: 2;
+	align-items: center;
+	list-style: none;	
+	justify-content: center;
+}
+
+li.nav-item {
+	padding: 0 20px;
+	border-right: 1px solid white;
+	
+
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+}
+
+li.nav-item.sign-in {
+	width: 200px;
+	padding-left: 50px;
+}
+
+li.nav-item.more {
+	width: 100px;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	margin: 0 10px;
+}
+
+input.nav-item {
+	width: 180px;
+	height: 30px;
+}
+
+/* First Section */
+div.heading-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 10px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+div.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 10px;
+}
+
+section.group-1 {
+	max-width: 650px;
+}
+.group-1 img {
+	padding-right: 10px;
+}
+.gear-5 img {
+	max-width: 600px;
+}
+
+.shanks img {
+	max-width: 400px;
+}
+
+.history img {
+	max-width: 400px;
+}
+
+.straw-hats img {
+	max-width: 400px;
+}
+
+.crime img {
+	max-width: 200px;
+}
+
+.row-2 img {
+	max-width: 300px;
+}
+
