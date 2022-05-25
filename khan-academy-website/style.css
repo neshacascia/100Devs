@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxA;
+}
+
+body {
+    width: auto;
+    margin: 0 auto;
+}
+
+/* Navigation Styles */
+nav {
+    height: 60px;
+    margin: 0 200px;
+}
+
+nav label,
+nav form,
+nav ul {
+    margin-top: 20px;
+}
+
+nav * {
+    float: left;
+    margin: 0 10px;
+}
+
+nav img {
+    width: 300px;
+    height: 60px;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* Section Styles */
+main > section {
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+}
+
+section img {
+    width: 75%;
+}
+
+main > section + section {
+    width: 35%;
+    margin-top: 300px;
+}
+
+section input {
+    margin-right: 5px;
+}
