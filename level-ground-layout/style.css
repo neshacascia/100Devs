@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans:wght@400;500&family=Oswald:wght@300;400&display=swap');
+
+:root {
+    --main-bg: rgb(105, 117, 136);
+    --second-bg: rgb(220, 223, 226);
+    --text: rgb(24, 35, 55);
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+input {
+    all: unset;
+    cursor: pointer;
+}
+
+header {
+    background: var(--main-bg);
+    height: 5vh;
+    padding-bottom: 70px;
+}
+
+/* Navigation Styles */
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+nav ul,
+nav img,
+nav .button {
+    float: left;
+}
+
+ul > * {
+    float: left;
+}
+
+ul {
+    margin: 20px 0 0 50px;
+    width: 43%;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}
+
+.img-container {
+    width: 90%;
+}
+
+nav img {
+    width: 50px;
+    margin-top: 10px;
+}
+
+nav .button {
+    color: var(--main-bg);
+    background: white;
+    float: right;
+    width: 50px;
+    margin: 15px 50px 0 0;
+    padding: 8px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* Banner Styles */
+section.banner {
+    color: white;
+    background: var(--main-bg);
+    clear: both;
+    height: 40vh;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.banner h1,
+.banner p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner h1 {
+    font-size: 60px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.banner p {
+    margin: 0 60px 30px 60px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 120%;
+}
+
+.watch {
+    height: 30px;
+}
+
+.watch img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.watch a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    vertical-align: 50%;
+}
+
+.banner a {
+    color: white;
+    text-decoration: none;
+}
+
+.why,
+.gym,
+.hire,
+.volunteer {
+    color: var(--text);
+    text-align: center;
+}
+
+.why h2,
+.volunteer h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.why p,
+.visit p,
+.volunteer p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 120%;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.why {
+    padding: 100px 100px;
+}
+
+/* Visit Section Styles */
+.visit {
+    color: var(--text);
+    background: var(--second-bg);
+    height: 45vh;
+    padding: 100px 100px;
+}
+
+.gym,
+.hire {
+    float: left;
+    width: 50%;
+}
+
+.gym div,
+.hire div {
+    background: var(--main-bg);
+    width: 250px;
+    height: 160px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.visit h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.visit p {
+    font-size: 12px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.visit input,
+.volunteer input {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    border: 1px solid var(--text);
+    padding: 10px 35px;
+}
+
+/* Volunteer Section Styles */
+.volunteer {
+    clear: both;
+    padding: 100px 100px;
+}
+
+.volunteer p {
+    margin-bottom: 25px;
+}
+
+/* Footer Styles */
+footer {
+    background: var(--text);
+    height: 20vh;
+    padding: 20px 25px;
+}
+
+.left {
+    float: left;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.right {
+    float: right;
+}
+
+.social-links img {
+    width: 20px;
+    padding: 0 15px 0 0;
+}
+
+.left h5 {
+    color: var(--main-bg);
+    margin-bottom: 4px;
+}
+
+.site-map,
+.contribute {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.links {
+    margin: 0;
+    width: 100%;
+}
+
+.links li a {
+    float: left;
+    width: 100%;
+    margin: 0 20px 0 0;
+}
+
+.right {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.right h4 {
+    line-height: 120%;
+}
+
+.right span {
+    line-height: 120%;
+}
+
+.right h4,
+.email {
+    font-weight: 500;
+}
+
+.right h4 + h4 {
+    margin-bottom: 10px;
+}
+
+.bottom-footer {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    clear: both;
+    border-top: 2px solid white;
+    padding-top: 10px;
+}
