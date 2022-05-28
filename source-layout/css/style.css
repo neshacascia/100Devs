@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-main: rgb(246, 249, 252);
+    --box: rgb(226, 233, 239);
+    --source: rgb(54, 69, 87);
+    --placeholder: rgb(157, 169, 182);
+    --source-txt: 'Source Sans Pro', sans-serif;
+}
+
+button,
+input {
+    all: unset;
+    cursor: pointer;
+}
+
+input[type="button"] {
+    color: white;
+    background-color: var(--source);
+    font-family: var(--source-txt);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 20px;
+}
+
+/* Navigation Styles */
+header {
+    background: var(--bg-main);
+}
+
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+
+nav .logo  {
+    color: var(--source);
+    font-family: var(--source-txt);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 0 20px;
+}
+
+li a {
+    color: var(--source);
+    font-family: var(--source-txt);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* Section 1 Styles */
+.section-one {
+    background: var(--bg-main);
+    height: 79vh;
+    padding-top: 30px;
+    padding-left: 120px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text span {
+    color: var(--placeholder);
+    font-family: var(--source-txt);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.text h1 {
+    color: var(--source);
+    font-family: var(--source-txt);
+    font-size: 36px;
+    font-weight: 600;
+    max-width: 280px;
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    background: var(--box);
+    padding: 6px 40px 6px 0;
+}
+
+::placeholder {
+    color: var(--placeholder);
+    font-family: var(--source-txt);
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.text p {
+    color: var(--source);
+    font-family: var(--source-txt);
+    font-size: 16px;
+    max-width: 310px;
+    line-height: 120%;
+}
+
+.input input {
+    margin: 0 -10px 15px 0;
+}
+
+.main img {
+    width: 500px;
+}
+
+/* Features Secion Styles */
+.features {
+    height: 350px;
+    margin-top: 50px;
+    padding-right: 100px;
+    display: flex;
+}
+
+.features section {
+    width: 230px;
+    margin-right: 40px;
+}
+
+.features img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.features h3 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.features h3,
+.features p {
+    color: var(--source);
+    font-family: var(--source-txt);
+    margin-bottom: 10px;
+}
+
+.features p {
+    font-size: 16px;
+    line-height: 120%;
+}
+
+p.feature-three {
+    max-width: 210px;
+}
+
+.features a {
+    color: var(--source);
+    font-family: var(--source-txt);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Second Section Styles */
+.second-section {
+    margin-top: 50px;
+    padding: 0 120px;
+}
+
+.second-section h2 {
+    color: var(--source);
+    font-family: var(--source-txt);
+    font-size: 34px;
+    font-weight: 600;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+.second-section p {
+    color: var(--placeholder);
+    font-family: var(--source-txt);
+    line-height: 120%;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.second-section div {
+    background: var(--box);
+    height: 60px;
+}
