@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+/* Navigation Styles */
+header {
+	background: #000;
+	height: 40px;
+}
+
+.navbar {
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 20px;
+}
+
+.nav-logo {
+	width: 90px;
+	border-right: 1px solid #fff;
+}
+
+.navbar img {
+	max-width: 70px;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav li {
+	width: 100px;
+	border-right: 1px solid #fff;
+	text-align: center;
+}
+
+.nav-item a {
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+.nav-item {
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sign-in {
+	width: 150px;
+	padding-right: 100px;
+}
+
+.more {
+	border: none;
+}
+
+.navbar input {
+	height: auto;
+}
