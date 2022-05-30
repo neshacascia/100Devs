@@ -15,7 +15,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0 20px;
+	margin: 0 15px;
 }
 
 .nav-logo {
@@ -63,4 +63,92 @@ nav li {
 
 .navbar input {
 	height: auto;
+}
+
+/* Main Section Styles */
+.container {
+	margin: 0 15px;
+}
+
+.heading-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.row {
+	height: 45vh;
+	display: flex;
+	gap: 10px;
+} 
+
+.gear-5 {
+	background-image: url(../Assets/gear-5-luffy.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+}
+
+.gear-5 h1 {
+	
+}
+
+.aside {
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.aside .top {
+	display: flex;
+	gap: 10px;
+	height: 50%;
+	margin-bottom: 10px;
+}
+
+.shanks {
+	background-image: url(../Assets/red-haired-shanks.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+}
+
+.aside .bottom {
+	display: flex;
+	gap: 10px;
+	height: 50%;
+}
+
+.history {
+	background-image: url(../Assets/poneglyphs.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+}
+
+.straw-hats {
+	background-image: url(../Assets/strawhat-wano.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+}
+
+.crime {
+	background-image: url(../Assets/zunisha.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+}
+
+/* News Section */
+.news-section {
+	height: 45vh;
+}
+
+.section-2 section {
+	width: 33.3333%;
+}
+
+.section-2 img {
+	width: 100%;
 }
