@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Roboto:wght@400;500&display=swap');
+
+:root {
+	--roboto: 'Roboto', sans-serif;
+	--inter: 'Inter', sans-serif;
+}
 
 * {
 	box-sizing: border-box;
@@ -12,6 +17,9 @@ header {
 
 .navbar {
 	height: 40px;
+	font-family: var(--roboto);
+	font-size: 14px;
+	font-weight: 500;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -63,6 +71,9 @@ nav li {
 
 .navbar input {
 	height: auto;
+	font-family: var(--roboto);
+	font-size: 14px;
+	font-weight: 500;
 }
 
 /* Main Section Styles */
@@ -73,6 +84,19 @@ nav li {
 .heading-container {
 	display: flex;
 	justify-content: space-between;
+	margin: 30px 0 15px 0;
+}
+
+.heading-container h2 {
+	font-family: var(--roboto);
+	font-weight: 500;
+	font-size: 22px;
+}
+
+.heading-container h3 {
+	font-family: var(--inter);
+	font-weight: 300;
+	font-size: 18px;
 }
 
 .row {
@@ -82,14 +106,51 @@ nav li {
 } 
 
 .gear-5 {
-	background-image: url(../Assets/gear-5-luffy.png);
+	background: linear-gradient(
+		to bottom,
+		rgba(0,0,0, 0) 50%,
+		rgba(0,0,0, 100)),
+		url(../Assets/gear-5-luffy.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 50%;
+	flex: 1 1 50%;
 }
 
-.gear-5 h1 {
-	
+.img-text {
+	color: #fff;
+	font-family: var(--inter);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin: 0 20px;
+	padding-bottom: 10px;
+}
+
+.img-text h1 {
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.img-text p,
+.img-text span {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.img-text h1,
+.img-text h3,
+.img-text p,
+.img-text span {
+	padding-bottom: 10px;
+}
+
+.img-text h3 {
+	font-weight: 500;
+}
+
+.img-text p {
+	line-height: 130%;
 }
 
 .aside {
@@ -107,10 +168,25 @@ nav li {
 }
 
 .shanks {
-	background-image: url(../Assets/red-haired-shanks.png);
+	background: linear-gradient(
+		to bottom,
+		rgba(0,0,0, 0) 50%,
+		rgba(0,0, 0, 100)),
+		url(../Assets/red-haired-shanks.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 50%;
+	flex: 0 1 50%;
+}
+
+.history {
+	background: linear-gradient(
+		to bottom,
+		rgba(0,0,0, 0) 50%,
+		rgba(0,0,0, 100)),
+		url(../Assets/poneglyphs.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	flex: 0 1 50%;
 }
 
 .aside .bottom {
@@ -119,25 +195,26 @@ nav li {
 	height: 50%;
 }
 
-.history {
-	background-image: url(../Assets/poneglyphs.jpeg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 50%;
-}
-
 .straw-hats {
-	background-image: url(../Assets/strawhat-wano.webp);
+	background: linear-gradient(
+		to bottom,
+		rgba(0,0,0, 0) 50%,
+		rgba(0,0,0, 100)),
+		url(../Assets/strawhat-wano.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 50%;
+	flex: 0 1 50%;
 }
 
 .crime {
-	background-image: url(../Assets/zunisha.webp);
+	background: linear-gradient(
+		to bottom,
+		rgba(0,0,0, 0) 50%,
+		rgba(0,0,0, 100)),
+		url(../Assets/zunisha.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 50%;
+	flex: 0 1 50%;
 }
 
 /* News Section */
