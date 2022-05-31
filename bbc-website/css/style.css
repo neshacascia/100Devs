@@ -87,7 +87,7 @@ nav li {
 	margin: 30px 0 15px 0;
 }
 
-.heading-container h2 {
+h2 {
 	font-family: var(--roboto);
 	font-weight: 500;
 	font-size: 22px;
@@ -100,7 +100,7 @@ nav li {
 }
 
 .row {
-	height: 45vh;
+	height: 40vh;
 	display: flex;
 	gap: 10px;
 } 
@@ -222,10 +222,42 @@ nav li {
 	height: 45vh;
 }
 
+.news-section h2 {
+	margin: 30px 0 15px 0;
+}
+
+.row-2 {
+	width: 100%;
+	gap: 10px;
+}
+
 .section-2 section {
 	width: 33.3333%;
 }
 
 .section-2 img {
 	width: 100%;
+	max-height: 258px;
+	object-fit: cover;
+}
+
+.section-2 h4,
+.section-2 p,
+.section-2 span {
+	font-family: var(--inter);
+	padding-bottom: 5px;
+}
+
+.section-2 h4 {
+	font-family: var(--roboto);
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 5px;
+}
+.section-2 p,
+.section-2 span {
+	font-family: var(--inter);
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 130%;
 }
